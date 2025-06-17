@@ -387,8 +387,105 @@
       </div>
     </div>
   </footer>
+  <div class="backdrop is-open">
+    <div class="modal">
+      <button 
+      type="button" 
+      class="modal-close"
+      >
+      <svg
+      class="modal-close-icon"
+      width="8"
+      height="8"
+      >
+      <use href="./images/cross.svg"></use>
+      </svg>
+      </button>
 
-  <div class="backdrop">
-<div class="modal"></div>
+      <p class="modal-titel">Leave your contacts and we will call you back</p>
+    
+      <form class="modal-form">
+        <div class="modal-field">
+          <label for="user-name" 
+          class="modal-input-titel">
+          Name
+          </label>
+          <div class="modal-input-cover">
+            <input 
+            type="text" 
+            class="modal-input"
+            name="user-name"
+            required
+            id="user-name"
+            />
+            <svg class="modal-input-icon"
+            width="18" 
+            height="18">
+              <use 
+              href="./images/icons.svg#icon-user">
+              </use>
+            </svg>
+          </div>
+       </div>
+       <div class="modal-field">
+          <label for="user-phone"
+          class="modal-input-titel">
+          Phone
+          </label>
+          <div class="modal-input-cover">
+            <input 
+            type="tel" 
+            class="modal-input"
+            name="user-phone"
+            required
+            id="user-phone"
+            />
+            <svg class="modal-input-icon"
+            width="18" 
+            height="24">
+              <use 
+              href="./images/icons.svg#icon-phone">
+              </use>
+            </svg>
+          </div>
+       </div>
+       <div class="modal-field">
+          <label 
+          for="user-email"
+          class="modal-input-titel">
+          Email
+          </label>
+          <div class="modal-input-cover">
+            <input 
+            type="email" 
+            class="modal-input"
+            name="user-email"
+            required
+            id="user-email"
+            />
+            <svg class="modal-input-icon"
+            width="18" 
+            height="24">
+              <use 
+              href="./images/icons.svg#icon-email">
+              </use>
+            </svg>
+          </div>
+       </div>
+
+       <div class="modal-field">
+        <label
+        for="user-text"
+        class="modal-input-text"
+        >Comment
+        </label>
+      <textarea 
+       class="modal-textarea"
+       name="user-text"
+       id="user-text"
+       placeholder="Text input"></textarea>
+      </div>
+      </form>    
+    </div>
   </div>
 </body>
