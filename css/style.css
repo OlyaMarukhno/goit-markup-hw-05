@@ -753,7 +753,7 @@ transform: translate(-50%, -50%) scale(1.5);
 }
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 
 }
 
@@ -772,7 +772,6 @@ transform: translate(-50%, -50%) scale(1.5);
 
 .modal-input-cover {
     position: relative;
-
 }
 
 .modal-textarea {
