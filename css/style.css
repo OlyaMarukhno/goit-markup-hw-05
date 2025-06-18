@@ -837,7 +837,7 @@ transform: translate(-50%, -50%) scale(1.5);
 .modal-check:checked + .check-text .check-element {
 background-color: #404bbf;
 border: none;
-fill: #F4F4FD;
+fill: #fffff;
 
 }
 
