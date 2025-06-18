@@ -744,6 +744,10 @@ transform: translate(-50%, -50%) scale(1.5);
     margin-bottom: 4px;
 }
 
+.modal-field1 {
+    margin-bottom: 8px; 
+}
+
 .modal-field {
     margin-bottom: 16px;
 
