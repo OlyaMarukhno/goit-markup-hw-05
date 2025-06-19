@@ -463,7 +463,6 @@ address {
 .page-container {
     display: flex;
     justify-content: space-between;
-
     align-items: center;
     align-items: baseline;
 }
@@ -474,9 +473,9 @@ address {
     width: 100%;
 }
 
-.container .footer-container {
+/*.container .footer-container {
     margin-right: 120px;
-}
+}*/
 
 .footer-logo {
     display: inline-block;
@@ -495,7 +494,6 @@ address {
     display: block;
     align-items: center;
     margin-right: 80x;
-    /*justify-content: space-between;*/
 }
 
 .icon-list-footer {
@@ -539,14 +537,10 @@ address {
     margin-bottom: 16px;
 }
 
-
-
 .footer-form {
-    display:flex;
+    display: flex;
     align-items: flex-end;
-
     gap: 24px;
-
 }
 
 .footer-form-text {
@@ -557,7 +551,6 @@ address {
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-
 
 .footer-input-titel {
     display: flex;
@@ -577,7 +570,6 @@ address {
     padding-right: 24px;
     color: #fff;
     font-size: 12px;
-
     line-height: 2;
     letter-spacing: 0.04em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -593,35 +585,27 @@ address {
 
 .footer-btn {
     border-radius: 4px;
-    padding: 8px 24px;
+    border: none;
+    display: block;
     min-width: 165px;
     height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 16px;
-    color: #fff;
-    border: none;
-    background-color: #4d5ae5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+    margin: 0 auto;
 }
-    
+
 .footer-btn:hover,
 .footer-btn:focus {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #404bbf;
-    }
-
-
-
-
+}
 
 .footer-icon-btn {
     fill: #fff;
@@ -638,7 +622,6 @@ address {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -695,7 +678,6 @@ transform: translate(-50%, -50%) scale(1.5);
 
 .modal-close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /*fill: #2e2f42;*/
 }
 
 .modal-titel {
@@ -827,17 +809,25 @@ fill: #F4F4FD;
 }
 
 .modal-btn {
+    border-radius:4px;
+    border: none;
     display: block;
+    text-align: center;
     min-width: 169px;
     height: 56px;
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    cursor: pointer;
     background-color: #4D5AE5;
-    border: none;
+    cursor: pointer;
+    margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
